@@ -1,0 +1,89 @@
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+#jumbo{
+    background-image: url("../Images/dm2.jpg");
+    background-position: center;
+    background-size: cover;
+    color: yellow;
+	text-shadow:   1px 0px #888, 0px 1px #aaa,
+               2px 1px #888, 1px 2px #aaa,
+               3px 2px #888, 2px 3px #aaa,
+               4px 3px #888, 3px 4px #aaa,
+               5px 4px #888, 4px 5px #aaa,
+               6px 5px #888, 5px 6px #aaa,
+               7px 6px #888, 6px 7px #aaa,
+               8px 7px #888, 7px 8px #aaa,
+               8px 8px #888;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+#jumbo1{
+    background-image: url("../Images/dm3.png");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    color: brown;
+    margin: 0;
+    padding: 0;
+}
+#jumbo2{
+    background-image: url("../Images/dm4.jpg");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    color: yellow;
+    margin: 0;
+    padding: 0;
+}
+#jumbo3{
+    background-image: url("../Images/dm5.png");
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
+#jumbo .container{
+    padding-top: 100px;
+}
+#container{
+    padding-top: 230px;
+}
+#navbarNav{
+    font-size: 20px;
+}
+.pushDown{
+    margin-top: 250px;
+    overflow: hidden;
+    transition: height 200ms;
+}
+#details .content{
+    margin-top: 10px;
+}
+#navbar .auth{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#navbar .auth1{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #bbb;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
